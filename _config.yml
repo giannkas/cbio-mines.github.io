@@ -18,21 +18,59 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+# Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+title: Fundamentals of Machine Learning
+email: giannkas1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This site provides practical exercises to develop fundamental skills for
+  both supervised and unsupervised machine learning. The content also includes
+  an introduction to deep learning techniques.
 baseurl: "/cbio-mines.github.io" # the subpath of your site, e.g. /blog
 url: "https://giannkas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: giannkas
+github_username:  giannkas
 
 # Build settings
 theme: just-the-docs
 plugins:
   - jekyll-feed
+
+# Logo (in the blue top bar)
+# logo: "/assets/logo.png"
+
+# Navigation links (top bar)
+nav_external_links:
+  - title: "GitHub"
+    url: "https://github.com/CBIO-mines/fml-dassault-systems-en"
+
+# Custom CSS to apply blue top bar
+# color_scheme: custom 
+
+# Footer
+footer_content: "© 2026 CBIO Mines Paris."
+
+# Enable search
+search_enabled: true
+
+# Aux links (top-right)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/CBIO-mines/fml-dassault-systems-en"
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Link custom CSS
+ga_tracking: ""
+
+# Tell Just the Docs to load the custom CSS
+# custom_css: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
