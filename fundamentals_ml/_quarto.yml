@@ -1,5 +1,6 @@
 project:
-  type: website  
+  type: website
+  output-dir: fundamentals_ml
 
 execute:
   freeze: auto
