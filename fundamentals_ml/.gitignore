@@ -1,2 +1,7 @@
 /.quarto/
 **/*.quarto_ipynb
+html/
+.jupyter*/
+_freeze/
+_site/
+.DS_Store
