@@ -34,7 +34,8 @@ twitter_username: giannkas
 github_username:  giannkas
 
 # Build settings
-theme: just-the-docs
+# theme: just-the-docs
+theme: minima
 plugins:
   - jekyll-feed
 
