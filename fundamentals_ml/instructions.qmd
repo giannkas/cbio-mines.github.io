@@ -1,0 +1,37 @@
+---
+title: "Instructions"
+---
+
+# Foundations of Machine Learning
+This website contains the practicals for the _Foundations of Machine Learning_ training course.
+
+## Librairies
+These notebooks have been created with Python 3.13.2 and the following libraries:
+* matplotlib 3.10.1
+* numpy 2.2.4
+* pandas 2.2.3
+* scikit-learn 1.6.1
+
+To use the same libraries, you can make use of the `package_list.yml` file:
+* With Anaconda, follows the ["Importing an environment" tutorial](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/).
+* With the command line, using [conda](https://anaconda.org/anaconda/conda) or [mamba](https://mamba.readthedocs.io/en/latest/) (a fast replacement of conda with no licensing issues)
+```bash
+   mamba env create -f package_list.yml -n introml
+   mamba activate introml
+   pip install torch --index-url https://download.pytorch.org/whl/cpu
+```
+
+## Content
+* Practical 1: getting started with `scikit-learn`
+* Practical 2: model selection, regularization
+* Practical 3: dimension reduction and clustering
+* Practical 4: trees and ensemble models
+* Practical 5: training neural networks
+
+
+## Advanced use (git and nbstripout)
+To facilitate version control with jupyter, please use [`nbstripout`](https://pypi.org/project/nbstripout/) to clean your notebooks before a commit,
+```bash
+nbstripout <notebook_name>.ipynb
+```
+`git diff <notebook_name>.ipynb` will help you check the changes made.

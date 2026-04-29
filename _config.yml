@@ -1,0 +1,94 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+title: Fundamentals of Machine Learning
+email: giannkas1@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This site provides practical exercises to develop fundamental skills for
+  both supervised and unsupervised machine learning. The content also includes
+  an introduction to deep learning techniques.
+baseurl: "/cbio-mines.github.io" # the subpath of your site, e.g. /blog
+url: "https://giannkas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: giannkas
+github_username:  giannkas
+
+# Build settings
+# theme: just-the-docs
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Logo (in the blue top bar)
+# logo: "/assets/logo.png"
+
+# Navigation links (top bar)
+nav_external_links:
+  - title: "GitHub"
+    url: "https://github.com/CBIO-mines/fml-dassault-systems-en"
+
+# Custom CSS to apply blue top bar
+# color_scheme: custom 
+
+# Footer
+footer_content: "© 2026 CBIO Mines Paris."
+
+# Enable search
+search_enabled: true
+
+# Aux links (top-right)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/CBIO-mines/fml-dassault-systems-en"
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Link custom CSS
+ga_tracking: ""
+
+# Tell Just the Docs to load the custom CSS
+# custom_css: true
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
