@@ -1,5 +1,8 @@
 project:
-  type: website
+  type: website  
+
+execute:
+  freeze: auto
 
 website:
   title: "Fundamentals of Machine Learning"
@@ -17,6 +20,7 @@ website:
         aria-label: GitHub
   sidebar: 
     logo: assets/mines_paris_psl_logo.png
+
 format:
   html:
     code-link: true
