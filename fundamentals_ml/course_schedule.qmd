@@ -1,0 +1,21 @@
+---
+title: "Course schedule"
+---
+
+## Week 1
+
+| block   	| start    	| end      	| subject                        	|
+|---------	|----------	|----------	|--------------------------------	|
+| May 11 	| 10:15 AM  	| 11:45 AM 	| [Getting familiar with scikit-learn](ipynb/1-Intro.ipynb) |
+| May 12 	| 10:15 AM  	| 11:45 AM 	| Model selection and evaluation |
+| May 13 	| 10:15 AM  	| 11:45 AM 	| Unsupervised learning |
+
+## Week 2
+
+| block   	| start    	| end      	| subject                        	|
+|---------	|----------	|----------	|--------------------------------	|
+| May 18 	| 10:15 AM  	| 11:45 AM 	| Trees and Ensemble Methods |
+| May 19 	| To be defined  	| To be defined 	| Optimization and neural networks |
+| May 20 	| To be defined  	| To be defined 	| Deep Learning with PyTorch |
+
+

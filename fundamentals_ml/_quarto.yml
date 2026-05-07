@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: fundamentals_ml
+  render:
+  - "*.qmd"
+  - "*.ipynb"
+  - "!CONTRIBUTIONG.md"
+  - "!LICENSE.md"
+
+website:
+  title: "Fundamentals of Machine Learning"
+  search: true
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home    
+      - href: course_schedule.qmd
+      - href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/CBIO-mines/fml-dassault-systems-en
+        aria-label: GitHub
+  sidebar: 
+    logo: assets/mines_paris_psl_logo.png
+
+format:
+  html:
+    code-link: true
+    theme:
+      - cosmo
+      - brand
+      - styles.scss
+    toc: true
+
+execute:
+  freeze: auto 
+  cache: true
+  tidy: true
