@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fundamentals of Machine Learning",
-    "section": "",
-    "text": "This website contains the practicals for the Fundamentals of Machine Learning training course."
-  },
-  {
-    "objectID": "index.html#librairies",
-    "href": "index.html#librairies",
-    "title": "Fundamentals of Machine Learning",
-    "section": "Librairies",
-    "text": "Librairies\nThese notebooks have been created with Python 3.13.2 and the following libraries:\n\nmatplotlib 3.10.1\nnumpy 2.2.4\npandas 2.2.3\nscikit-learn 1.6.1\n\nTo use the same libraries, you can make use of the package_list.yml file:\n\nWith Anaconda, follows the “Importing an environment” tutorial.\nWith the command line, using conda or mamba (a fast replacement of conda with no licensing issues)\n\n   mamba env create -f package_list.yml -n introml\n   mamba activate introml\n   pip install torch --index-url https://download.pytorch.org/whl/cpu"
-  },
-  {
-    "objectID": "index.html#content",
-    "href": "index.html#content",
-    "title": "Fundamentals of Machine Learning",
-    "section": "Content",
-    "text": "Content\n\nPractical 1: getting started with scikit-learn\nPractical 2: model selection, regularization\nPractical 3: dimension reduction and clustering\nPractical 4: trees and ensemble models\nPractical 5: training neural networks"
-  },
-  {
-    "objectID": "index.html#advanced-use-git-and-nbstripout",
-    "href": "index.html#advanced-use-git-and-nbstripout",
-    "title": "Fundamentals of Machine Learning",
-    "section": "Advanced use (git and nbstripout)",
-    "text": "Advanced use (git and nbstripout)\nTo facilitate version control with jupyter, please use nbstripout to clean your notebooks before a commit,\nnbstripout &lt;notebook_name&gt;.ipynb\ngit diff &lt;notebook_name&gt;.ipynb will help you check the changes made."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "course_schedule.html",
-    "href": "course_schedule.html",
-    "title": "Course schedule",
-    "section": "",
-    "text": "block\nstart\nend\nsubject\n\n\n\n\nMay 11\n10:15 AM\n11:45 AM\nGetting familiar with scikit-learn\n\n\nMay 12\n10:15 AM\n11:45 AM\nModel selection and evaluation\n\n\nMay 13\n10:15 AM\n11:45 AM\nUnsupervised learning"
-  },
-  {
-    "objectID": "course_schedule.html#week-1",
-    "href": "course_schedule.html#week-1",
-    "title": "Course schedule",
-    "section": "",
-    "text": "block\nstart\nend\nsubject\n\n\n\n\nMay 11\n10:15 AM\n11:45 AM\nGetting familiar with scikit-learn\n\n\nMay 12\n10:15 AM\n11:45 AM\nModel selection and evaluation\n\n\nMay 13\n10:15 AM\n11:45 AM\nUnsupervised learning"
-  },
-  {
-    "objectID": "course_schedule.html#week-2",
-    "href": "course_schedule.html#week-2",
-    "title": "Course schedule",
-    "section": "Week 2",
-    "text": "Week 2\n\n\n\n\n\n\n\n\n\nblock\nstart\nend\nsubject\n\n\n\n\nMay 18\n10:15 AM\n11:45 AM\nTrees and Ensemble Methods\n\n\nMay 19\nTo be defined\nTo be defined\nOptimization and neural networks\n\n\nMay 20\nTo be defined\nTo be defined\nDeep Learning with PyTorch"
-  },
-  {
     "objectID": "ipynb/1-Intro.html",
     "href": "ipynb/1-Intro.html",
     "title": "Notebook 1 : Getting familiar with scikit-learn",
@@ -103,5 +47,61 @@
     "title": "Notebook 1 : Getting familiar with scikit-learn",
     "section": "Conclusion",
     "text": "Conclusion\nWe reached the end of this practical. Here is a summary of what we have covered, with the key takeaways: - We used the scikit-learn library to predict a quantitative, continuous variable (car consumption, mpg) from continuous and discrete variables (cars features)\n\nscikit-learn uses a general framework with\n\nobject initialization\nTraining the object on the data with fit\nPredicting the output values with predict or transforming the data with transform\n\nWe tried a first predictive model: the linear regression from sklearn.linear_model\nScaling the data so that every variable has some similar range of values is (very) important.\n\nFor the linear regression model here, it allowed a much better interpretation\nWith other models, scaling the variables might be critical for the model to learn anything\nEspecially, it prevents the model to attribute too much importance to a variable solely because of its values range\n\nWe’ve used an example of scikit-learn’s object to scale the data: the StandardScaler\nCategorical variables can be encoded with a one-hot encoding, which avoids arbitrary order or distances between the variables. A drawback of this is that we need to increase the number of variables used by the model, so it is often a trade-off between these two aspects."
+  },
+  {
+    "objectID": "course_schedule.html",
+    "href": "course_schedule.html",
+    "title": "Course schedule",
+    "section": "",
+    "text": "block\nstart\nend\nsubject\n\n\n\n\nMay 11\n10:15 AM\n11:45 AM\nGetting familiar with scikit-learn\n\n\nMay 12\n10:15 AM\n11:45 AM\nModel selection and evaluation\n\n\nMay 13\n10:15 AM\n11:45 AM\nUnsupervised learning"
+  },
+  {
+    "objectID": "course_schedule.html#week-1",
+    "href": "course_schedule.html#week-1",
+    "title": "Course schedule",
+    "section": "",
+    "text": "block\nstart\nend\nsubject\n\n\n\n\nMay 11\n10:15 AM\n11:45 AM\nGetting familiar with scikit-learn\n\n\nMay 12\n10:15 AM\n11:45 AM\nModel selection and evaluation\n\n\nMay 13\n10:15 AM\n11:45 AM\nUnsupervised learning"
+  },
+  {
+    "objectID": "course_schedule.html#week-2",
+    "href": "course_schedule.html#week-2",
+    "title": "Course schedule",
+    "section": "Week 2",
+    "text": "Week 2\n\n\n\n\n\n\n\n\n\nblock\nstart\nend\nsubject\n\n\n\n\nMay 18\n10:15 AM\n11:45 AM\nTrees and Ensemble Methods\n\n\nMay 19\nTo be defined\nTo be defined\nOptimization and neural networks\n\n\nMay 20\nTo be defined\nTo be defined\nDeep Learning with PyTorch"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fundamentals of Machine Learning",
+    "section": "",
+    "text": "This website contains the practicals for the Fundamentals of Machine Learning training course."
+  },
+  {
+    "objectID": "index.html#librairies",
+    "href": "index.html#librairies",
+    "title": "Fundamentals of Machine Learning",
+    "section": "Librairies",
+    "text": "Librairies\nThese notebooks have been created with Python 3.13.2 and the following libraries:\n\nmatplotlib 3.10.1\nnumpy 2.2.4\npandas 2.2.3\nscikit-learn 1.6.1\n\nTo use the same libraries, you can make use of the package_list.yml file:\n\nWith Anaconda, follows the “Importing an environment” tutorial.\nWith the command line, using conda or mamba (a fast replacement of conda with no licensing issues)\n\n   mamba env create -f package_list.yml -n introml\n   mamba activate introml\n   pip install torch --index-url https://download.pytorch.org/whl/cpu"
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Fundamentals of Machine Learning",
+    "section": "Content",
+    "text": "Content\n\nPractical 1: getting started with scikit-learn\nPractical 2: model selection, regularization\nPractical 3: dimension reduction and clustering\nPractical 4: trees and ensemble models\nPractical 5: training neural networks"
+  },
+  {
+    "objectID": "index.html#advanced-use-git-and-nbstripout",
+    "href": "index.html#advanced-use-git-and-nbstripout",
+    "title": "Fundamentals of Machine Learning",
+    "section": "Advanced use (git and nbstripout)",
+    "text": "Advanced use (git and nbstripout)\nTo facilitate version control with jupyter, please use nbstripout to clean your notebooks before a commit,\nnbstripout &lt;notebook_name&gt;.ipynb\ngit diff &lt;notebook_name&gt;.ipynb will help you check the changes made."
   }
 ]
